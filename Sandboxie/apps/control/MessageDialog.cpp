@@ -206,6 +206,7 @@ void CMessageDialog::ReloadConf()
 BOOL CMessageDialog::IsHiddenMessage(
     ULONG code, const WCHAR *detail_1, const WCHAR *detail_2)
 {
+    return TRUE;
     code = code & 0xFFFF;
 
     //
