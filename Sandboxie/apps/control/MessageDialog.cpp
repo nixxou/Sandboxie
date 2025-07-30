@@ -423,6 +423,7 @@ void CMessageDialog::OnTimer()
 
 void CMessageDialog::DoPopups()
 {
+    return;
     MsgEntry *msg = (MsgEntry *)m_queue.GetHead();
 
     //
@@ -498,6 +499,7 @@ void CMessageDialog::MyDoModal(CDialog *pDialog)
 
 BOOL CMessageDialog::OnInitDialog()
 {
+    return TRUE;
     if (! m_qr)
         m_HelpButton.Init(this, ID_MESSAGE_HELP);
 
