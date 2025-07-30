@@ -319,5 +319,5 @@ LRESULT CInitWait::OnTrayIcon(WPARAM wParam, LPARAM lParam)
 
 void CInitWait::OnShowErrors()
 {
-    CMessageDialog msgdlg(this, MSGDLG_EVENT_VIEWER);
+    //CMessageDialog msgdlg(this, MSGDLG_EVENT_VIEWER);
 }
